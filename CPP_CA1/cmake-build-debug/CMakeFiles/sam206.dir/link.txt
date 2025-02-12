@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2024.3.2\bin\cmake\win\x64\bin\cmake.exe" -E rm -f CMakeFiles\sam206.dir/objects.a
+C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\ar.exe qc CMakeFiles\sam206.dir/objects.a @CMakeFiles\sam206.dir\objects1.rsp
+C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE -g -Wl,--whole-archive CMakeFiles\sam206.dir/objects.a -Wl,--no-whole-archive -o sam206.exe -Wl,--out-implib,libsam206.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\sam206.dir\linkLibs.rsp

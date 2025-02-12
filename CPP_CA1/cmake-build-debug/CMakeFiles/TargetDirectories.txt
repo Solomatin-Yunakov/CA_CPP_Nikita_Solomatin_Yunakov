@@ -1,0 +1,3 @@
+C:/Users/nikit/Desktop/CPP_CA1/cmake-build-debug/CMakeFiles/sam206.dir
+C:/Users/nikit/Desktop/CPP_CA1/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/nikit/Desktop/CPP_CA1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
