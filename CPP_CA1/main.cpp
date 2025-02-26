@@ -9,15 +9,18 @@ using namespace std;
 
 struct Game
 {
+    int index;
     string name;
     double rating;
     string developer;
     int year;
 };
 
+
 void display(const Game &stud)
 {
     cout <<left
+    << setw(15)<< stud.name
     << setw(15)<< stud.name
     <<setw(5) <<stud.year
     <<setw(10)<< stud.rating
@@ -41,32 +44,40 @@ void parseLine(string line,Game &stud)
 }
 void load(string Ca_data, vector<Game> &data)
 {
-    ifstream fin(Ca_data);
 
+    ifstream fin(Ca_data);
+    cout << "File load." <<endl;
+    cout << Ca_data <<endl;
     if(fin)
     {
         string line;
         while(getline(fin, line))
         {
             Game stud;
+            cout << line <<endl;
+
             parseLine(line, stud);
             data.push_back(stud);
+
         }
         fin.close();
+
     }
     else
     {
         cout << "Error opening file." <<endl;
     }
 }
-void writeToFile(const vector<Game> &data)
+void writeToFile(const vector<Game> &data,int idnexq)
 {
-    ofstream out("Out.txt");
+    int index= idnexq;
+    ofstream out("Out.txt"+index);
     if(out)
     {
         for(int i = 0; i < data.size();i++)
         {
             out <<left
+
                 << setw(15)<< data[i].name
                 <<setw(50)<<data[i].developer
                 <<setw(5) <<data[i].year
@@ -81,33 +92,48 @@ void writeToFile(const vector<Game> &data)
     }
 }
 int main() {
-
     Game stud;
-    stud.year = 21;
-    stud.name = "Peter";
-    stud.rating = 1.7;
-    stud.developer = "peter@oscorp.com";
-    //display(stud);
-//    cout <<left<< setw(15)<< "Name" <<setw(5) <<"year"<<setw(10)
-//         << "rating" <<setw(50) <<"developer"<<endl;
+    stud.index=0;
+    stud.year = 0;
+    stud.name = "";
+    stud.rating = 0.0;
+    stud.developer = "";
+
     vector<Game> v;
-    load("CA1.txt", v);
+    vector<Game> w;
+    load("Ca_data.txt", v);
+    load("Ca_data.txt", w);
 
     for(Game &s: v)
     {
-        s.year *=2;
+        s.year=s.year;
     }
+    auto func2 =
+    [](Game s1, Game s2){return s1.rating < s2.rating;};
+    sort(v.begin(), v.end(), func2);
     auto func =
             [](Game s1, Game s2){return s1.rating > s2.rating;};
-    sort(v.begin(), v.end(), func);
-    /*
-    for(vector<Student>::iterator iter = v.begin();
-    iter != v.end();
-    iter++)
+    sort(w.begin(), w.end(), func);
+
+    //int count_under18 = count_if(v.begin(), v.end(), [] (Game s1) { return s1.rating < 18; } );
+   // cout <<  << count_under18 << '\n';
+
+    for(vector<Game>::iterator iter2 = w.begin(); iter2 != w.end(); iter2++)
+    {
+        display(*iter2);
+
+        writeToFile(w,1);
+
+        return 0;
+    }
+    for(vector<Game>::iterator iter = v.begin(); iter != v.end(); iter++)
     {
         display(*iter);
-    }*/
-    writeToFile(v);
 
-    return 0;
+        writeToFile(v,2);
+
+        return 0;
+    }
+
+
 }

@@ -1,0 +1,100 @@
+Matsoft        Schroeder Inc                                     2015 98.3      
+Prodder        Walter-Hessel                                     2014 96.6      
+Treeflex       Mayer Inc                                         2015 96.4      
+Bitwolf        Daniel-Kertzmann                                  2011 96.1      
+Mat Lam Tam    Romaguera-Berge                                   2007 95.3      
+Stringtough    Swift-Johnson                                     2004 95        
+Treeflex       "Botsford Hodkiewicz and Homenick"                2021 93.7      
+Flexidy        Glover Group                                      2012 92.3      
+Alpha          Crist-Hodkiewicz                                  2013 89.9      
+Quo Lux        Boyer-Swift                                       2015 89.7      
+Vagram         Schamberger-Collins                               2009 89.4      
+Treeflex       "Konopelski Torphy and Mills"                     2015 87.8      
+Span           Kohler-Harris                                     2012 87.7      
+Transcof       Schowalter Inc                                    2013 83.6      
+Tampflex       "Williamson McKenzie and Wunsch"                  2005 81.6      
+Lotstring      Schneider Group                                   2015 80.6      
+Subin          DuBuque-Gerlach                                   2012 80.4      
+Prodder        Pouros Group                                      2004 78.7      
+Namfix         Bahringer-Bartell                                 2005 76.5      
+Zoolab         Morar-Sawayn                                      2013 74.5      
+Alpha          Nikolaus-Walker                                   2019 74.1      
+Matsoft        "Bechtelar Bradtke and Tillman"                   2014 73.2      
+Subin          Sipes Group                                       2005 72.3      
+Tres-Zap       Kuhic-Gulgowski                                   1999 71.7      
+Cardguard      Homenick-Schoen                                   2013 71.4      
+Wrapsafe       Cummings-Shanahan                                 2003 71.2      
+Y-Solowarm     "Price Bernhard and Bartell"                      2016 71        
+It             Kulas and Sons                                    2014 70.8      
+Tres-Zap       Bartell-Schulist                                  2016 70        
+Cookley        Ziemann and Sons                                  2011 69.4      
+Konklab        Runolfsson Inc                                    2010 68.2      
+Namfix         Cole LLC                                          2014 67.3      
+Trippledex     "Bernhard Feeney and Mueller"                     2016 66        
+Tempsoft       Wolf and Sons                                     2012 65.6      
+Latlux         Dibbert Inc                                       2012 65.3      
+Veribet        Padberg-Heller                                    2010 61.8      
+Asoka          Schamberger-Gislason                              2019 61.3      
+Domainer       Stoltenberg-Toy                                   2000 61.2      
+Aerified       "Kilback Lemke and Zboncak"                       2006 59.9      
+Lotlux         Nitzsche-Morar                                    2016 56.4      
+Daltfresh      Runte-Gibson                                      2011 55.6      
+Andalax        Luettgen-Hegmann                                  2003 55.5      
+Hatity         Murazik-McCullough                                2004 55.3      
+Cookley        "Gulgowski Grant and Jakubowski"                  2020 55.2      
+Zontrax        Krajcik Inc                                       2010 52.4      
+Hatity         Watsica-Franecki                                  2015 51.6      
+Job            "Metz Rolfson and Carroll"                        2017 51.1      
+Otcom          "Kerluke Hermiston and Quigley"                   2006 49.6      
+Tampflex       "Wilderman Zemlak and Kunze"                      2014 48.8      
+Bamity         Thompson-Price                                    2015 47.9      
+Mat Lam Tam    DuBuque LLC                                       2017 45.8      
+Mat Lam Tam    "Bruen Hand and Quitzon"                          2011 45.1      
+Stronghold     Conn Inc                                          2012 44.5      
+Mat Lam Tam    Schuppe-Collier                                   2018 42.1      
+Bitwolf        Gutmann-O'Reilly                                  2011 41.7      
+Cardguard      Koch and Sons                                     2015 39.7      
+Vagram         "Rohan Rohan and Terry"                           2019 39.4      
+Bamity         Sanford and Sons                                  2008 37.7      
+Bamity         "Dietrich Gislason and Collier"                   2018 35.6      
+Bamity         Walsh-Nitzsche                                    2018 35.4      
+Sonsing        Fritsch-Mraz                                      2006 34.9      
+Subin          "Wuckert Steuber and Ernser"                      2019 34.2      
+Sub-Ex         "Bechtelar Gibson and Gulgowski"                  2012 33.9      
+Alphazap       "Pagac Schneider and Quigley"                     2007 33.4      
+Tempsoft       "Bosco Zboncak and Daugherty"                     2018 32.8      
+Bitchip        Murazik Inc                                       2014 32.2      
+Tresom         Skiles-Hauck                                      2012 31.9      
+Lotstring      "Herzog Mayer and Corkery"                        2011 30        
+Zoolab         Wisoky-Cummings                                   2002 29.9      
+Sonsing        "Mayer Langworth and Weissnat"                    2012 28.5      
+Konklux        Luettgen Group                                    2010 28        
+Viva           Schumm Group                                      2014 27.4      
+Domainer       "Keeling McCullough and Zulauf"                   2015 26.4      
+Opela          "Mohr Jerde and Lowe"                             2020 25.2      
+Lotstring      Considine and Sons                                2010 25.1      
+Tampflex       "Flatley Parisian and Frami"                      2018 24.4      
+Keylex         Huel LLC                                          2018 24        
+Cookley        "Padberg Rempel and Kiehn"                        2007 22.5      
+Bytecard       Feil LLC                                          2007 22        
+Redhold        Carter-Koss                                       2019 21.8      
+Tempsoft       Stamm-O'Kon                                       2020 21.6      
+Duobam         Lehner-Kreiger                                    2006 21.3      
+Alpha          Watsica-Gibson                                    2011 18.8      
+Sonsing        "Morar Carter and Effertz"                        2019 18.5      
+Overhold       Schmidt Inc                                       2012 17        
+Lotstring      Yost Group                                        2003 16.1      
+Greenlam       Durgan-Considine                                  2014 14.8      
+Domainer       Hudson-Smitham                                    2011 14.7      
+Span           "Wiegand Trantow and Bergnaum"                    2013 13.8      
+Otcom          "Cassin Koss and Franecki"                        2012 10.5      
+Viva           Swaniawski and Sons                               2003 9.5       
+Hatity         "MacGyver Schroeder and Lubowitz"                 2013 9.4       
+Namfix         Satterfield-Schaden                               2013 8.4       
+Opela          Grimes Inc                                        2014 8         
+Bamity         "Zboncak Weimann and Towne"                       2014 4.7       
+Flexidy        Quitzon and Sons                                  2012 4.4       
+It             Becker-Senger                                     2013 3.4       
+Zontrax        "Kub Batz and Berge"                              2018 2.8       
+Fintone        "Green Metz and Jakubowski"                       2015 2         
+Fixflex        Jast-Miller                                       2018 1.4       
