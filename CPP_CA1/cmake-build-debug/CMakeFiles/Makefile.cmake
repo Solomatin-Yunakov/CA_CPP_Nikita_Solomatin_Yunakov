@@ -110,7 +110,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Program Files/JetBrains/CLion 2024.3.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-windres.cmake"
   "C:/Program Files/JetBrains/CLion 2024.3.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows.cmake"
   "C:/Program Files/JetBrains/CLion 2024.3.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/WindowsPaths.cmake"
-  "C:/Users/nikit/Desktop/CPP_CA1/CMakeLists.txt"
+  "C:/Users/nikit/Documents/GitHub/CA_CPP_Nikita_Solomatin_Yunakov/CPP_CA1/CMakeLists.txt"
   "CMakeFiles/3.30.5/CMakeCCompiler.cmake"
   "CMakeFiles/3.30.5/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.30.5/CMakeRCCompiler.cmake"

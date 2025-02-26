@@ -1,5 +1,5 @@
 CMakeFiles/sam206.dir/main.cpp.obj: \
- C:\Users\nikit\Desktop\CPP_CA1\main.cpp \
+ C:\Users\nikit\Documents\GitHub\CA_CPP_Nikita_Solomatin_Yunakov\CPP_CA1\main.cpp \
  C:/Program\ Files/JetBrains/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/iostream \
  C:/Program\ Files/JetBrains/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/requires_hosted.h \
  C:/Program\ Files/JetBrains/CLion\ 2024.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
