@@ -9,7 +9,7 @@ using namespace std;
 
 struct Game
 {
-    int index;
+
     string name;
     double rating;
     string developer;
@@ -20,7 +20,6 @@ struct Game
 void display(const Game &stud)
 {
     cout <<left
-    << setw(15)<< stud.name
     << setw(15)<< stud.name
     <<setw(5) <<stud.year
     <<setw(10)<< stud.rating
@@ -42,6 +41,7 @@ void parseLine(string line,Game &stud)
     stud.year = stoi(temp);
 
 }
+
 void load(string Ca_data, vector<Game> &data)
 {
 
@@ -68,10 +68,10 @@ void load(string Ca_data, vector<Game> &data)
         cout << "Error opening file." <<endl;
     }
 }
-void writeToFile(const vector<Game> &data,int idnexq)
+void writeToFile(const vector<Game> &data)
 {
-    int index= idnexq;
-    ofstream out("Out.txt"+index);
+
+    ofstream out("Out.txt");
     if(out)
     {
         for(int i = 0; i < data.size();i++)
@@ -91,9 +91,41 @@ void writeToFile(const vector<Game> &data,int idnexq)
         cout << "Error opening file."<<endl;
     }
 }
+void displayNameByDev(const vector<Game> &data,const string &name)
+{
+    bool found = false;
+    for(int i = 0; i < data.size();i++) {
+        if(data[i].developer == name) {
+            found = true;
+            cout << left << setw(15) << data[i].name << data[i].developer;
+        }
+    }
+    if(!found) {
+        cout << "Not found" <<endl;
+    }
+}
+int findGameYears(const vector<Game> &data) {
+    int sum = 0;
+    int highest = 0;
+    int lowest = 0;
+    int counter=0;
+    for(int i = 0; i < data.size();i++) {
+        sum += data[i].year;
+        counter++;
+        if(data[i].year > highest) {
+            highest = data[i].year;
+        }
+        if(data[i].year < lowest) {
+            lowest = data[i].year;
+        }
+    }
+    cout << "Highest year: " << highest << endl;
+    cout << "Lowest year: " << lowest << endl;
+    return sum/counter;
+}
 int main() {
     Game stud;
-    stud.index=0;
+
     stud.year = 0;
     stud.name = "";
     stud.rating = 0.0;
@@ -108,6 +140,14 @@ int main() {
     {
         s.year=s.year;
     }
+string username;
+    cout <<"Enter developer Name to find Game name"<< '\n';
+    getline(cin, username);
+
+    displayNameByDev(v,username);
+    cout << '\n';
+    int avarageyear=findGameYears(w);
+    cout<<"Your avageyear is: "<<avarageyear<<endl;
     auto func2 =
     [](Game s1, Game s2){return s1.rating < s2.rating;};
     sort(v.begin(), v.end(), func2);
@@ -122,7 +162,7 @@ int main() {
     {
         display(*iter2);
 
-        writeToFile(w,1);
+        writeToFile(w);
 
         return 0;
     }
@@ -130,10 +170,11 @@ int main() {
     {
         display(*iter);
 
-        writeToFile(v,2);
+        writeToFile(v);
 
         return 0;
     }
+
 
 
 }
