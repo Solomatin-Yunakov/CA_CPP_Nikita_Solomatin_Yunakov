@@ -107,9 +107,10 @@ void displayNameByDev(const vector<Game> &data,const string &name)
 int findGameYears(const vector<Game> &data) {
     int sum = 0;
     int highest = 0;
-    int lowest = 0;
+    int lowest = 2016;
     int counter=0;
     for(int i = 0; i < data.size();i++) {
+
         sum += data[i].year;
         counter++;
         if(data[i].year > highest) {
@@ -132,40 +133,66 @@ int main() {
     stud.developer = "";
 
     vector<Game> v;
-    vector<Game> w;
+
     load("Ca_data.txt", v);
-    load("Ca_data.txt", w);
 
     for(Game &s: v)
     {
         s.year=s.year;
     }
-string username;
+   /*
+    *I tried to made a menu to make more user fiendly
+    *But all methods stop working corectly when they start running
+    *from if statements
+    *
+    * cout<< "Type number of operation which you want to do";
+    cout<< "\n 1 Find Name by Developer Name\n 2 Find years of games\n 3 Show all Game inforamtio\n";
+    load("Ca_data.txt", v);
+    int choice;
+    cin >> choice;
+    if(choice == 1) {
+        vector<Game> v;
+        int avarageyear=findGameYears(v);
+        cout<<"Your avageyear is: "<<avarageyear<<endl;
+        for(Game &s: v)
+        {
+            s.year=s.year;
+        }
+    }
+    else if(choice == 2) {
+    load("Ca_data.txt", v);
+        vector<Game> v;
+        string username;
+        cout <<"Enter developer Name to find Game name"<< '\n';
+        cin>>username;
+        getline(cin, username);
+        displayNameByDev(v,username);
+    }
+    else if(choice == 3) {
+        load("Ca_data.txt", v);
+    }
+*/
+
+
+
+
+    string username;
     cout <<"Enter developer Name to find Game name"<< '\n';
     getline(cin, username);
 
-    displayNameByDev(v,username);
-    cout << '\n';
-    int avarageyear=findGameYears(w);
+   displayNameByDev(v,username);
+   cout << '\n';
+    int avarageyear=findGameYears(v);
     cout<<"Your avageyear is: "<<avarageyear<<endl;
     auto func2 =
-    [](Game s1, Game s2){return s1.rating < s2.rating;};
+    [](Game s1, Game s2){return s1.rating > s2.rating;};
     sort(v.begin(), v.end(), func2);
-    auto func =
-            [](Game s1, Game s2){return s1.rating > s2.rating;};
-    sort(w.begin(), w.end(), func);
+
 
     //int count_under18 = count_if(v.begin(), v.end(), [] (Game s1) { return s1.rating < 18; } );
    // cout <<  << count_under18 << '\n';
 
-    for(vector<Game>::iterator iter2 = w.begin(); iter2 != w.end(); iter2++)
-    {
-        display(*iter2);
 
-        writeToFile(w);
-
-        return 0;
-    }
     for(vector<Game>::iterator iter = v.begin(); iter != v.end(); iter++)
     {
         display(*iter);

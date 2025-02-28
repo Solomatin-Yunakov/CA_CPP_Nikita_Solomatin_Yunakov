@@ -37,7 +37,7 @@ Veribet        Padberg-Heller                                    2010 61.8
 Asoka          Schamberger-Gislason                              2019 61.3      
 Domainer       Stoltenberg-Toy                                   2000 61.2      
 Aerified       "Kilback Lemke and Zboncak"                       2006 59.9      
-Lotlux         Nitzsche-Morar                                    2016 56.4      
+Lotlux         Nitzsche-Morar                                    9999 56.4      
 Daltfresh      Runte-Gibson                                      2011 55.6      
 Andalax        Luettgen-Hegmann                                  2003 55.5      
 Hatity         Murazik-McCullough                                2004 55.3      
@@ -50,9 +50,9 @@ Tampflex       "Wilderman Zemlak and Kunze"                      2014 48.8
 Bamity         Thompson-Price                                    2015 47.9      
 Mat Lam Tam    DuBuque LLC                                       2017 45.8      
 Mat Lam Tam    "Bruen Hand and Quitzon"                          2011 45.1      
-Stronghold     Conn Inc                                          2012 44.5      
+Stronghold     Conn Inc                                          2023 44.5      
 Mat Lam Tam    Schuppe-Collier                                   2018 42.1      
-Bitwolf        Gutmann-O'Reilly                                  2011 41.7      
+Bitwolf        Gutmann-O'Reilly                                  1000 41.7      
 Cardguard      Koch and Sons                                     2015 39.7      
 Vagram         "Rohan Rohan and Terry"                           2019 39.4      
 Bamity         Sanford and Sons                                  2008 37.7      
@@ -97,4 +97,4 @@ Flexidy        Quitzon and Sons                                  2012 4.4
 It             Becker-Senger                                     2013 3.4       
 Zontrax        "Kub Batz and Berge"                              2018 2.8       
 Fintone        "Green Metz and Jakubowski"                       2015 2         
-Fixflex        Jast-Miller                                       2018 1.4       
+Fixflex        Jast-Miller                                       2012 1.4       
